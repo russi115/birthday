@@ -283,3 +283,26 @@ audio::-webkit-media-controls-panel:hover{
   place-items: center;
   padding-top: 60px;
 }
+
+@media screen and (max-width: 768px) {
+  .reset button {
+    flex: 1; /* Para que haya dos elementos por fila */
+    font-weight: 800;
+    font-style: normal;
+    transition: all 0.1s linear;
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: solid 2px #ff5757;
+    border-radius: 4px;
+    color: #ff5757;
+    display: inline-block;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 5px;
+    padding: 10px;
+    line-height: 1em;
+    text-decoration: none;
+    min-width: calc(50% - 10px); /* Ancho del botón en porcentaje */
+    cursor: pointer;
+  }
+}
